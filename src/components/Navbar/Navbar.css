@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #111439;
+    padding: 10px;
+    position: sticky;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    color: #ff144c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    color: #111439;
+    background: #dca694;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transform: scale(1.2) !important;
+}

@@ -1,0 +1,151 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding-inline: 10rem;
+    background-color: #111439;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+
+.contact-form input {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2.5px solid #dca694;
+    outline: none;
+    color: #ff144c;
+    background-color: #111439;
+}
+
+.contact-form button {
+    padding: 0.5rem 0.5rem;
+    border: 3px solid #ff144c;
+    border-radius: 25px;
+    background-color: #ff144c;
+    color: #111439;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+    width: 60%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.contact-form button:hover {
+    background-color: #dca694;
+    border-color: #dca694;
+    color: #ff144c;
+}
+
+.right-section {
+    justify-self: flex-end;
+    margin-right: 10vw;
+    text-align: right;
+}
+
+.right-section h2 {
+    font-size: 1.8rem;
+    color: #dca694;
+}
+
+.right-section p {
+    font-size: 1.3rem;
+    color: #ff144c;
+}
+
+.label-input {
+    font-weight: bold;
+    max-width: 60%;
+    color: #dca694;
+}
+
+label span {
+    color: #ff144c;
+    margin-left: 8px;
+}
+
+.adress {
+    margin-top: 4rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+    margin-right: -1rem;
+}
+
+.social-icons a {
+    color: #ff144c;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.notification {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.notification h2 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.notification p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.notification-red {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: rgb(203, 44, 44);
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.notification-red h2 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.notification-red p {
+    font-size: 1.1rem;
+    text-align: center;
+}

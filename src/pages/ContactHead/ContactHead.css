@@ -1,0 +1,38 @@
+.container-head {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-inline: 10rem;
+    background-color: #111439;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.text-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
+    align-items: center;
+    max-width: 35rem;
+}
+
+.title-head {
+    font-size: 6rem;
+    color: #dca694;
+    margin: 0;
+    width: 100%;
+}
+
+.subtitle-head {
+    font-size: 1.5rem;
+    width: 100%;
+    color: #ff144c;
+}
+
+.work-image-head {
+    width: 255px;
+    height: 255px;
+    border: 3px solid #ff144c;
+    border-radius: 50%;
+    justify-self: flex-end;
+    margin-right: 8vw;
+}

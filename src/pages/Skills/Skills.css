@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.skills-section {
+    padding-top: 6%;
+    padding-inline: 16.5vw;
+    background-color: #dca694;
+    padding-bottom: 12%;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@keyframes fadeInSlideIn {
+    0% {
+        opacity: 0;
+        transform: scaleY(-1) scaleX(-1) translateY(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scaleY(-1) scaleX(-1) translateY(0);
+    }
+}
+
+.vertical-text {
+    font-size: 1.5rem;
+    color: #111439;
+    justify-self: start !important;
+    align-self: center;
+}
+
+.vertical-text h2 {
+    writing-mode: vertical-rl;
+    transform: scaleY(-1) scaleX(-1);
+    animation: fadeInSlideIn 1.5s ease-out forwards;
+}
+
+.skills-header {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 7vw;
+    color: #111439;
+}
+
+.content-wrapper {
+    align-self: center;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 4vw;
+    grid-row-gap: 2.5vw;
+}
+
+.tech-card {
+    font-size: 1.7rem;
+    background-color: #f2f2f2;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 10vw;
+}
+
+.tech-card.animated {
+    opacity: 0;
+    transform: scale(0.8);
+    animation: fadeInScaleUp 1s ease-out forwards;
+    transition: opacity 10ms, transform 10ms;
+}
+
+@keyframes fadeInScaleUp {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.skills-slider {
+    align-self: center;
+    justify-self: end;
+}
+
+.slider-dot {
+    width: 0.4rem;
+    height: 3rem;
+    background-color: #111439;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slider-dot.active {
+    background-color: #ff144c;
+}
+
+@keyframes fadeInScaleUp {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.cards-container.animated {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 300ms, transform 300ms;
+}
