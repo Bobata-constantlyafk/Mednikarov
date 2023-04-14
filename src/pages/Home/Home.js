@@ -16,6 +16,9 @@ function Home() {
   }, []);
   return (
     <div id="home-page">
+      <div className='under-construction'>
+        <h1>under construction</h1>
+      </div>
       <div id="home-text-left">
         <h2>lorem ipsum</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>

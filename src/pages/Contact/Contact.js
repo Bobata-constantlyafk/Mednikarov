@@ -9,6 +9,7 @@ const Contact = () => {
     e.preventDefault();
     
     const lastSent = localStorage.getItem('lastSent');
+    const emailjs_key = process.env.REACT_APP_EMAILJS_KEY;
     
     // Check if message was already sent within the last 30 minutes
     if (lastSent && (Date.now() - lastSent) < 1800000) {
@@ -20,7 +21,7 @@ const Contact = () => {
         document.body.removeChild(notification);
       }, 15000);
     } else {
-      emailjs.sendForm('service_d2ka6ss', 'template_ipsbabu', form.current, 'tTHVlMTLkz7BLi5O5')
+      emailjs.sendForm('service_d2ka6ss', 'template_ipsbabu', form.current, emailjs_key)
         .then((result) => {
           console.log(result.text);
           const notification = document.createElement('div');
@@ -38,6 +39,7 @@ const Contact = () => {
   };
 
   return (
+    
     <div className="container" id="contact">
       <div className="left-section">
         <form ref={form} className="contact-form" onSubmit={sendEmail}>
