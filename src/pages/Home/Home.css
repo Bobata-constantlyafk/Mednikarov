@@ -15,13 +15,11 @@
     align-items: center;
     text-align: center;
     z-index: 1;
-    margin-top: 13rem;
 }
 
 #home-text-left h2,
 #home-text-right h2 {
     font-size: 4rem;
-    margin-bottom: 0;
     color: #ff144c;
 }
 
@@ -36,14 +34,11 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-left: -300px;
-    margin-right: -300px;
 }
 
 #home-image img {
     height: 150%;
     width: auto;
-    margin-bottom: 10px;
 }
  .under-construction {
      display: flex;
