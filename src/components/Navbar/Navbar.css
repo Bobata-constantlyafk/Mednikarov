@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: center;
-    background-color: #111439;
+    background-color: var(--secondary-color);
     padding: 10px;
     position: sticky;
 }
@@ -18,7 +18,7 @@ li {
 }
 
 a {
-    color: #ff144c;
+    color: var(--tertiary-color);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -29,8 +29,8 @@ a {
 }
 
 a:hover {
-    color: #111439;
-    background: #dca694;
+    color: var(--secondary-color);
+        background: var(--primary-color);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;

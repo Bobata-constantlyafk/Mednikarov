@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     padding-inline: 10rem;
-    background-color: #111439;
+    background-color: var(--secondary-color);
 }
 
 .left-section {
@@ -28,18 +28,18 @@
     margin-top: 1rem;
     font-size: 1.2rem;
     border: none;
-    border-bottom: 2.5px solid #dca694;
+    border-bottom: 2.5px solid var(--primary-color);
     outline: none;
-    color: #ff144c;
-    background-color: #111439;
+    color: var(--tertiary-color);
+        background-color: var(--secondary-color);
 }
 
 .contact-form button {
     padding: 0.5rem 0.5rem;
-    border: 3px solid #ff144c;
+    border: 3px solid var(--tertiary-color);
     border-radius: 25px;
-    background-color: #ff144c;
-    color: #111439;
+    background-color: var(--tertiary-color);
+        color: var(--secondary-color);
     font-size: 1.3rem;
     font-weight: bold;
     cursor: pointer;
@@ -53,9 +53,9 @@
 }
 
 .contact-form button:hover {
-    background-color: #dca694;
-    border-color: #dca694;
-    color: #ff144c;
+    background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        color: var(--tertiary-color);
 }
 
 .right-section {
@@ -66,22 +66,22 @@
 
 .right-section h2 {
     font-size: 1.8rem;
-    color: #dca694;
+    color: var(--primary-color);
 }
 
 .right-section p {
     font-size: 1.3rem;
-    color: #ff144c;
+    color: var(--tertiary-color);
 }
 
 .label-input {
     font-weight: bold;
     max-width: 60%;
-    color: #dca694;
+    color: var(--primary-color);
 }
 
 label span {
-    color: #ff144c;
+    color: var(--tertiary-color);
     margin-left: 8px;
 }
 
@@ -97,7 +97,7 @@ label span {
 }
 
 .social-icons a {
-    color: #ff144c;
+    color: var(--tertiary-color);
     text-decoration: none;
     font-size: 2rem;
 }

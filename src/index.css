@@ -11,3 +11,9 @@ code {
     monospace;
 }
 
+:root {
+  --primary-color: #E6BF1A;
+  --secondary-color: #206099;
+  --tertiary-color: #fff;
+  --quaternary-color: #9EEA81;
+}
