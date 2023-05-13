@@ -3,7 +3,8 @@
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     padding-inline: 10rem;
-    background-color: var(--secondary-color);
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+        ;
 }
 
 .left-section {

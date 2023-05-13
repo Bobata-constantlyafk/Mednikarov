@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     padding-inline: 10rem;
-    background-color: var(--secondary-color);
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
     padding-top: 5rem;
     padding-bottom: 10rem;
 }

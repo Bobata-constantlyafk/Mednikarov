@@ -6,7 +6,7 @@ body {
 .skills-section {
     padding-top: 6%;
     padding-inline: 16.5vw;
-    background-color: var(--primary-color);
+    background: linear-gradient(to right, #ffc500, #fe8c00);
     padding-bottom: 12%;
 }
 
